@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F4F8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- 🔵 HEADER -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Profile"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- 👤 PROFILE CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:elevation="6dp"
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <!-- PROFILE IMAGE (FIXED ROUND) -->
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/profileImage"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/user_icon"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center_horizontal"
+                app:shapeAppearanceOverlay="@style/CircleImage"/>
+
+            <!-- NAME -->
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Name"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"/>
+
+            <!-- EMAIL -->
+            <TextView
+                android:id="@+id/userEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="user@gmail.com"
+                android:textSize="14sp"
+                android:textColor="#666"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="4dp"/>
+
+            <!-- BALANCE -->
+            <TextView
+                android:id="@+id/userBalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Balance: ₹0"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#1E88E5"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+        <!-- 📊 INFO CARD -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:elevation="6dp"
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Account Info"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Portfolio Access"
+                android:textSize="14sp"
+                android:textColor="#444"
+                android:layout_marginBottom="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Trading History"
+                android:textSize="14sp"
+                android:textColor="#444"
+                android:layout_marginBottom="6dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Settings &amp; Security"
+                android:textSize="14sp"
+                android:textColor="#444"/>
+        </LinearLayout>
+
+        <!-- LOGOUT BUTTON -->
+        <Button
+            android:id="@+id/logoutBtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Logout"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#E53935"/>
+
+    </LinearLayout>
+
+</ScrollView>

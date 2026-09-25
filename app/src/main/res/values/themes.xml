@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.ZStocks"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Primary colors -->
+        <item name="colorPrimary">#1E88E5</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+
+        <!-- Secondary -->
+        <item name="colorSecondary">#6A11CB</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+
+        <!-- Background -->
+        <item name="android:windowBackground">#F2F4F8</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">#1565C0</item>
+
+    </style>
+
+    <style name="Theme.ZStocks" parent="Base.Theme.ZStocks" />
+
+</resources>

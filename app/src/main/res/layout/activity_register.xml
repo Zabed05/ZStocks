@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Image -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/zstocks_bg5" />
+
+    <!-- Dark overlay for readability -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66000000" />
+
+    <!-- Form Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="620dp"
+        android:layout_marginBottom="70dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Create Account"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <!-- Inputs (using input_border.xml) -->
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_border"
+            android:hint="Full Name"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#DDDDDD" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_border"
+            android:hint="Email"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#DDDDDD" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_border"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#DDDDDD" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/input_border"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:padding="12dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#DDDDDD" />
+
+        <!-- Register Button (gradient style) -->
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_gradient"
+            android:text="Register"
+            android:textColor="#FFFFFF" />
+
+        <!-- Optional Outline Button (if you want login redirect) -->
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_outline"
+            android:text="Already have an account? Login"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</FrameLayout>

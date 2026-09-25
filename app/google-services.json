@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "322211341882",
+    "project_id": "z-stocks",
+    "storage_bucket": "z-stocks.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322211341882:android:7bef672c8a432831917703",
+        "android_client_info": {
+          "package_name": "com.zak.zstocks"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4a1fI7Nv0O4Ieznx9aZaSzezJf8IwgSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
