@@ -19,3 +19,6 @@ captures/
 
 # macOS
 .DS_Store
+
+# Release APKs
+app/release/
