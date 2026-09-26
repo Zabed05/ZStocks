@@ -17,6 +17,14 @@ ZStocks allows users to create an account, view simulated stock prices and chart
 - 📱 Clean and beginner-friendly Android UI
 - 📡 Simulated stock data — no external API required
 
+## 📥 Download
+
+Download the latest Android APK:
+
+[![Download APK](https://img.shields.io/badge/Download-APK-brightgreen?style=for-the-badge&logo=android)](https://github.com/Zabed05/ZStocks/releases/latest)
+
+> **Note:** ZStocks is an educational stock market simulation app. It does not involve real money or real stock trading.
+
 ## 🛠️ Technologies
 
 - **Language:** Java
